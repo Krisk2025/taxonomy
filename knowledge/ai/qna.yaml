@@ -1,1 +1,137 @@
 
+created_by: juliadenham
+version: 3
+domain: technology
+seed_examples:
+  - context: |
+      **Overview of Agentic AI Frameworks**
+
+      Agentic AI frameworks are designed to enable autonomous decision-making in artificial intelligence systems. They integrate planning, learning, and multi-agent coordination to allow systems to adapt and function with minimal human intervention.
+    questions_and_answers:
+      - question: |
+          What are agentic AI frameworks?
+        answer: |
+          Agentic AI frameworks empower systems with autonomous decision-making by integrating planning, reinforcement learning, and multi-agent coordination.
+      - question: |
+          How do agentic AI frameworks enable autonomous decision-making?
+        answer: |
+          They combine learning algorithms, planning systems, and decision modules to allow AI to assess complex inputs and act without constant human oversight.
+      - question: |
+          What are the key components of an agentic AI framework?
+        answer: |
+          Key components include decision-making modules, learning algorithms, planning systems, and communication protocols that support autonomous operation.
+      - question: |
+          What are common applications of agentic AI frameworks?
+        answer: |
+          Applications include autonomous robotics, smart transportation, adaptive gaming, and multi-agent simulations used in research and industry.
+      - question: |
+          Which repositories offer resources on agentic AI frameworks?
+        answer: |
+          Repositories such as IBM’s Agentic AI repository, OpenAI Gym, and DeepMind Lab provide code samples, documentation, and community support.
+  - context: |
+      **Agentic AI Development Tools**
+
+      The development of agentic AI systems relies on a range of specialized tools. These tools include simulation environments, debugging utilities, reinforcement learning libraries, and multi-agent platforms that streamline prototyping, testing, and deployment.
+    questions_and_answers:
+      - question: |
+          What development tools are essential for agentic AI?
+        answer: |
+          Essential tools include simulation environments, reinforcement learning libraries, multi-agent platforms, and debugging utilities.
+      - question: |
+          How do simulation environments benefit agentic AI development?
+        answer: |
+          Simulation environments offer controlled, virtual settings where agent behaviors can be safely tested and refined before real-world deployment.
+      - question: |
+          What role do reinforcement learning libraries play in agentic AI systems?
+        answer: |
+          They provide frameworks and algorithms that allow agents to learn optimal behaviors from interactions with their environment.
+      - question: |
+          How do debugging tools support agentic AI development?
+        answer: |
+          Debugging tools help identify and resolve issues in agent behavior and system integration, ensuring reliability and performance.
+      - question: |
+          Which repositories provide resources for agentic AI development tools?
+        answer: |
+          Repositories such as RLlib by Ray, OpenAI Gym, and PettingZoo offer extensive libraries, sample code, and documentation for development tools.
+  - context: |
+      **Reinforcement Learning for Agentic AI**
+
+      Reinforcement learning (RL) is a cornerstone of agentic AI. It enables agents to learn optimal behaviors by interacting with their environment and receiving rewards or penalties, thus refining their decision-making processes.
+    questions_and_answers:
+      - question: |
+          What is reinforcement learning in the context of agentic AI?
+        answer: |
+          Reinforcement learning allows agents to learn optimal behaviors by interacting with their environment and receiving feedback in the form of rewards or penalties.
+      - question: |
+          Which reinforcement learning algorithms are commonly used in agentic AI?
+        answer: |
+          Common algorithms include Q-Learning, Deep Q-Networks (DQN), Proximal Policy Optimization (PPO), and Actor-Critic methods.
+      - question: |
+          How do simulation environments aid reinforcement learning in agentic AI?
+        answer: |
+          They provide safe, controlled settings for agents to experiment, learn from trial and error, and refine their strategies before deployment.
+      - question: |
+          What challenges are associated with applying reinforcement learning in agentic AI?
+        answer: |
+          Challenges include ensuring algorithm convergence, balancing exploration with exploitation, and managing the computational complexity of training agents.
+      - question: |
+          Are there specific repositories dedicated to reinforcement learning for agentic AI?
+        answer: |
+          Yes, repositories such as RLlib and OpenAI Gym offer dedicated environments and libraries to support reinforcement learning research.
+  - context: |
+      **Multi-Agent Systems in Agentic AI**
+
+      Multi-agent systems involve multiple autonomous agents interacting within a shared environment. These systems enhance problem-solving capabilities through collaboration, competition, and coordinated decision-making.
+    questions_and_answers:
+      - question: |
+          What defines a multi-agent system in agentic AI?
+        answer: |
+          A multi-agent system consists of multiple autonomous agents that interact, collaborate, or compete to achieve individual or collective goals.
+      - question: |
+          How do agents communicate in a multi-agent system?
+        answer: |
+          Agents communicate using predefined protocols and messaging systems that enable the exchange of information and coordination of actions.
+      - question: |
+          What frameworks are commonly used for multi-agent systems in agentic AI?
+        answer: |
+          Frameworks like MESA and PettingZoo are widely used for building and simulating multi-agent systems.
+      - question: |
+          What are the benefits of using multi-agent systems in AI?
+        answer: |
+          They allow for complex problem-solving through coordinated behaviors, leading to more flexible and robust system performance.
+      - question: |
+          Which repositories offer resources on multi-agent system development for agentic AI?
+        answer: |
+          Repositories such as MESA and PettingZoo on GitHub provide extensive resources including codebases, documentation, and community support.
+  - context: |
+      **Ethical Considerations and Best Practices in Agentic AI**
+
+      The responsible development of agentic AI requires a strong emphasis on ethical considerations and best practices. This involves ensuring safety, transparency, fairness, and continuous monitoring to mitigate risks associated with autonomous systems.
+    questions_and_answers:
+      - question: |
+          Why are ethical considerations important in agentic AI development?
+        answer: |
+          Ethical considerations ensure that autonomous systems operate safely, fairly, and transparently, reducing risks like bias and unintended consequences.
+      - question: |
+          What are best practices for deploying agentic AI systems?
+        answer: |
+          Best practices include rigorous testing in simulated environments, continuous performance monitoring, proactive risk management, and stakeholder engagement.
+      - question: |
+          How can ethical challenges in agentic AI be addressed?
+        answer: |
+          They can be addressed by integrating ethical guidelines into the design and deployment process and continuously assessing the impact of autonomous decisions.
+      - question: |
+          What guidelines should developers follow for ethical agentic AI?
+        answer: |
+          Developers should adhere to guidelines emphasizing transparency, accountability, fairness, and privacy, as recommended by organizations such as IEEE and ACM.
+      - question: |
+          Which repositories provide resources on ethical AI practices and guidelines?
+        answer: |
+          Repositories such as IBM’s ethical AI resources and the AI Ethics Lab on GitHub offer documentation, best practices, and sample implementations.
+document_outline: |
+  Information about agentic AI frameworks and tools including overviews, development tools, reinforcement learning, multi-agent systems, and ethical considerations.
+document:
+  repo: https://github.com/Krisk2025/agentic_ai_knowledge
+  commit: d4e5f6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3
+  patterns:
+    - agentic_ai.md
