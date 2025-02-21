@@ -132,6 +132,6 @@ document_outline: |
   Information about agentic AI frameworks and tools including overviews, development tools, reinforcement learning, multi-agent systems, and ethical considerations.
 document:
   repo: https://github.com/Krisk2025/agentic_ai_knowledge
-  commit: d4e5f6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3
+  commit: f4144abfe749cf9de93f0185b871a731e051a35b
   patterns:
     - agentic_ai.md
